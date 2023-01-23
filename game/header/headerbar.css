@@ -1,0 +1,17 @@
+.pagr-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    font-family: "Balsamiq Sans", sans-serif;
+  }
+  .bar{
+    grid-column: 1/13;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 255, 242);
+    background: -webkit-linear-gradient(top, #332f42, #92b3d8);
+  }
+  
